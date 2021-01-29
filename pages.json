@@ -21,7 +21,8 @@
 			}
 
 		}
-	],
+	    
+    ],
 	"subPackages": [{
 		"root": "pages/system",
 		"pages": [{
@@ -113,6 +114,32 @@
 				"navigationBarTitleText": "表格"
 			}
 		}]
+	},{
+		"root": "pages/trash",
+		"pages": [{
+			"path": "check/check",
+			"style": {
+				"navigationBarTitleText": "垃圾查看"
+			}
+		}    ,{
+                    "path" : "update/update",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "垃圾修改",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "add/add",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "垃圾新增",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
 	}],
 	"globalStyle": {
 		"navigationStyle": "custom",

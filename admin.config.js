@@ -14,8 +14,8 @@ export default {
 			text: 'Admin框架文档',
 			url: 'https://uniapp.dcloud.net.cn/uniCloud/admin'
 		}, {
-			text: '浏览更多Admin插件',
-			url: 'https://ext.dcloud.net.cn/?cat1=7&cat2=74'
+			text: '作者Github主页',
+			url: 'https://github.com/no-dayoff'
 		}],
 		debug: {
 			enable: process.env.NODE_ENV !== 'production', //是否显示错误信息

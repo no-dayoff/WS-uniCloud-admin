@@ -11,7 +11,7 @@
 			<view class="navbar-left pointer">
 				<navigator class="logo" open-type="reLaunch" url="/">
 					<image :src="logo" mode="heightFix"></image>
-					<text>{{appName}}</text>
+					<text>垃圾分类后台管理</text>
 				</navigator>
 				<uni-icons @click="toggleSidebar" type="bars" class="menu-icon" size="30" color="#999"></uni-icons>
 			</view>
