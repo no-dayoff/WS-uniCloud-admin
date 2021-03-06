@@ -1,6 +1,6 @@
 <template>
     <scroll-view style="padding: 15px;box-sizing: border-box;">
-        内容主体，可自定义内容及样式<text style="color: #666; font-size: 15px;">（ 页面初始文字）</text>
+        <text style="color: #666; font-size: 15px;">小程序：绿色手册(垃圾分类小程序)的后台管理系统 作者:lihuazheng</text>
 		<!-- #ifndef H5 -->
 		<fix-window />
 		<!-- #endif -->

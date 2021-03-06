@@ -32,7 +32,7 @@ export default {
 		// 配置静态菜单列表（放置在用户被授权的菜单列表下边）
 		staticMenu: [{
 			menu_id: "demo",
-			name: '静态功能演示',
+			name: '图标管理',
 			icon: 'uni-icons-list',
 			url: "",
 			children: [{
@@ -40,12 +40,14 @@ export default {
 				name: '图标',
 				icon: '',
 				url: '/pages/demo/icons/icons',
-			}, {
-				menu_id: "table",
-				name: '表格',
-				icon: '',
-				url: '/pages/demo/table/table',
-			}]
+			},
+			// {
+			// 	menu_id: "table",
+			// 	name: '表格',
+			// 	icon: '',
+			// 	url: '/pages/demo/table/table',
+			// },
+			]
 		}]
 	}
 }
